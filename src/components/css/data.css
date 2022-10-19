@@ -1,0 +1,94 @@
+.data-icon {
+	width: 25px;
+	height: 30px;
+}
+
+.data-grid {
+	overflow-x: scroll;
+}
+
+table {
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
+.data-folder {
+	width: 30px;
+}
+
+.data tr:hover {
+	background: #f8f8f8;
+	cursor: pointer;
+}
+
+.data tr {
+	border: 1px solid transparent !important;
+}
+
+.data tr td {
+	vertical-align: middle;
+	font-weight: 500;
+}
+
+.data tr td:nth-child(2) {
+	color: #2d31fa;
+	font-weight: 500;
+}
+
+.data-head {
+	background: rgba(46, 49, 250, 0.1);
+}
+
+::-webkit-scrollbar {
+	height: 0;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
+
+.empty {
+	width: 100%;
+	height: 28rem;
+	display: flex;
+	justify-content: center;
+}
+
+.empty img {
+	width: 22rem;
+	height: 22rem;
+	filter: grayscale(0%);
+	animation: moveUpDown 3s linear infinite;
+}
+
+@keyframes moveUpDown {
+	0%,
+	100% {
+		transform: translateY(10px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+}
+
+@media (max-width: 400px) {
+	.empty img {
+		width: 15rem;
+		height: 15rem;
+	}
+	::-webkit-scrollbar {
+		height: 0;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: transparent;
+	}
+}

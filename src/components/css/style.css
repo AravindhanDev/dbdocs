@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "IBM Plex Sans", sans-serif;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+	padding: 0 1rem 1rem;
+	zoom: 110%;
+}
+
+::selection {
+	color: #2d31fa;
+	background: #eee;
+}
+
+button {
+	border-radius: 3px !important;
+}
+
+.btn-blue {
+	background: #2d31fa !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+	transition: all 0.3s !important;
+}
+
+.text-blue {
+	color: #2d31fa !important;
+}
+
+.btn-blue:hover {
+	background: #14279b !important;
+	color: #fff !important;
+}
+
+.btn-grey {
+	background: #d3dedc !important;
+	color: #14279b !important;
+	font-weight: 600 !important;
+	transition: all 0.3s !important;
+}
+
+.reverse {
+	rotate: 180deg;
+}
+
+.btn-grey:hover {
+	background: #d3dedc !important;
+	color: #14279b !important;
+}
+
+.btn {
+	background: transparent !important;
+	transition: all 0.5s !important;
+}
+
+.btn-red {
+	background: #ff0063 !important;
+	color: #fff !important;
+	font-weight: 600 !important;
+	transition: all 0.3s !important;
+}
+
+.btn-outline-red {
+	color: #ff0063 !important;
+	font-weight: 600 !important;
+	border: none !important;
+}
+
+.btn-outline-red:hover {
+	background: transparent !important;
+}
+
+.btn-red:hover {
+	background: #ff0063 !important;
+	color: #fff !important;
+}
+
+.btn-hlg {
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+}
+
+textarea {
+	resize: none !important;
+}
+
+@media (max-width: 400px) {
+	body {
+		padding: 0.1rem !important;
+	}
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}

@@ -1,0 +1,9 @@
+.address-bar {
+	position: relative;
+}
+
+.address {
+	border: 1px solid #444 !important;
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+}
